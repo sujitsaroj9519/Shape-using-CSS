@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .box{
+            height: 50px;
+            width: 50px;
+            /* color: red;
+            border-width: 2px;
+            border-color: blue; */
+            border : 2px solid blue;
+            background-color: red;
+        }
+        .box:hover{
+            width: 100px;
+            height: 100px;
+            float: right;
+            /* transition-duration:3s; */
+            rotate: ;
+
+        }
+        .rectrangle{
+            margin: 10px 0px;
+            /* padding: 10px; */
+            width: 100px;
+            height: 200px;
+            background: blue;
+            /* position: sticky; */
+        }
+        .rectrangle:hover{
+            height: 100px;
+            width: 50px;
+            
+        }
+        .circle{
+            width: 100px;
+            height: 100px;
+            background: green;
+            border-radius: 90%;
+        }
+        .circle:hover{
+            transform: translate(0%,100%);
+            tra;
+        }
+        .oval{
+            width: 100px;
+            height: 50px;
+            background: royalblue;
+            border-radius: 100px/50px;
+            margin: 10px 0px;
+        }
+        .trangle{
+            width: 0px;
+            height: 0px;
+            border-left: 50px solid blue;
+            border-right: 50px solid blue;
+            border-bottom: 100px solid red;
+        }
+        .tra-d{
+            width: 0;
+            height: 0;
+            border-left: 100px solid transparent;
+            border-right: 100px solid transparent;
+            border-top: 200px solid red;
+            margin: 10px 0;
+        }
+        .tra-l{
+            width: 0;
+            height: 0;
+            border-top: 50px solid transparent;
+            border-right: 100px solid red;
+            border-bottom: 50px solid transparent;
+        }
+        .tra-r{
+            width: 0;
+            height: 0;
+            border-left: 100px solid red;
+            border-top: 50px solid transparent;
+            border-bottom: 50px solid transparent;
+        }
+        .tra-tl{
+            width: 0;
+            height: 0;
+            border-top: 100px solid red;
+            border-right: 100px solid transparent;
+            margin: 10px 0;
+        }
+        .tra-tr{
+            margin: 10px 0;
+            width: 0;
+            height: 0;
+            border-top: 100px solid red;
+            border-left:100px solid transparent ;
+        }
+        .tra-bl{
+            margin: 10px 0;
+            width: 0;
+            height: 0;
+            border-bottom: 100px solid red;
+            border-right: 100px solid transparent;
+        }
+        .tra-br{
+            margin: 10px 0;
+            width: 0;
+            height: 0;
+            border-bottom: 100px solid red;
+            border-left: 100px solid transparent;
+        }
+        .curverd-tail-arrow{
+            position: relative;
+            width: 0;
+            height: 0;
+            border-top: 9px solid transparent;
+            border-right: 9px solid red;
+            transform: rotate(10deg);
+            margin: 10px ;
+        }
+        .curverd-tail-arrow:after{
+            content: "";
+            position: absolute;
+            border: 0 solid transparent;
+            border-top: 3px solid red;
+            border-radius: 20px 0 0 0;
+            top: -12px;
+            left: -9px;
+            width: 12px;
+            height: 12px;
+            transform: rotate(45deg);
+        }
+        .moon{
+            margin: 10px;
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            box-shadow: 15px 15px 0 0 red;
+        }
+        .egg{
+            margin: 20px 0;
+            display: block;
+            width: 126px;
+            height: 180px;
+            background-color: red;
+            border-radius: 50% 50% 50% 50%/60% 60% 40% 40%;
+        }
+        .parallogram{
+            margin: 20px ;
+            width: 150px;
+            height: 100px;
+            transform: skew(20deg);
+            background: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    <div class="rectrangle"></div>
+    <div class="circle"></div>
+    <div class="oval"></div>
+    <div class="trangle"></div>
+    <div class="tra-d"></div>
+    <div class="tra-l"></div>
+    <div class="tra-r"></div>
+    <div class="tra-tl"></div>
+    <div class="tra-tr"></div>
+    <div class="tra-bl"></div>
+    <div class="tra-br"></div>
+    <div class="curverd-tail-arrow"></div>
+    <div class="moon"></div>
+    <div class="egg"></div>
+    <div class="parallogram"></div>
+    
+</body>
+</html>
+
